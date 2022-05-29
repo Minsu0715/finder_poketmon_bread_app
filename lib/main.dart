@@ -1,12 +1,3 @@
-// 현재 위치 구글맵으로 표시해주는 page를 만들었습니다. 실행시 에뮬레이터 현재 위치 default 값이 구글 본사이어서 계속 한 곳 만 뜰 겁니다.
-// 길찾기 구현은 실패해서 현재 위치 구글맵으로 뿌리는 것으로 대체했습니다.
-// 구동 잘 안될 시 아래 콘솔 창 오류 잘 봐주세요.
-// 이 앱이 애뮬레이터에서 구동되기 위해 androidMainifest.xml 에서 구글 qpi 키가 필요합니다. 구글링하시면 됩니다! 그리고
-// <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-// <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-// 위 두 문장도 andriodMainifest.xml 에 참조해야 하는데 위치를 모르시면 이것도 구글링 하시면 됩니다!
-// 전체적으로 모르시겠다면 flutter 구글맵 빈 화면이라고 검색하시면 됩니다.
-// pubspec.yaml 도 잘 확인하셔서 pub.get 잘 해주셔야 됩니다!
 
 import 'package:flutter/material.dart';
 import 'package:map_test/first_page.dart';
